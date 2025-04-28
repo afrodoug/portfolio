@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campo Personalizado</title>
+  <style>
+    .campo-customizado {
+      width: 50px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- <label for="quantidade">Quantidade:</label>
+  <div>
+    <input type="text" id="quantidade" class="campo-customizado" readonly>
+    <button id="btnRemove" onclick="incrementar()">+</button>
+    <button onclick="decrementar()">-</button>
+  </div> -->
+
+  <script>
+    var quantidade = 0; // Valor inicial
+
+    function exibirQuantidade() {
+      document.getElementById("quantidade").value = quantidade;
+    }
+
+    function incrementar() {
+      quantidade++;
+      exibirQuantidade();
+    }
+
+    function decrementar() {
+      if (quantidade > 0) {
+        quantidade--;
+        exibirQuantidade();
+      }
+    }
+
+    // Exibindo valor inicial
+    exibirQuantidade();
+  </script>
+
+</body>
+</html>

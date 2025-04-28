@@ -1,0 +1,161 @@
+.aside {
+    position: relative;
+    bottom: 910px;
+    left: 910px;
+    width: 399px;
+    height: 840px;
+    padding-top: 60px;
+    background: #EFF0F5;
+    flex-shrink: 0;
+}
+
+.aside .cardTrans{
+    position: relative;
+    bottom: 110px;
+    margin-bottom: 10px;
+}
+
+.aside h3{
+    position: relative;
+    left: 30px;
+    bottom: 150px;
+    padding-top:100px;
+    width: 206px;
+    height: 33px;
+    font-size: 24px;
+    font-family: "nunito"; 
+    font-weight: 600;      
+}
+
+.cardTrans {
+    position: relative;
+    bottom: 90px;
+    left: 30px;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 4px;
+    border-color: #6B7280;
+    height: 195px;
+    box-shadow: 0px 0px 0px 1px #D1D5DB;    
+}
+.cardTrans h4 {
+    position: relative;
+    left: 24px;
+}
+.cardTrans p {
+    position: relative;
+    left:30px;
+    width: 259px;
+    height: 42px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:21px;
+    color: #6B7280;    
+}
+.preco {
+    position: relative;
+    left: 24px;
+    top: 20px;
+    color: #333945;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    left: 30px;
+}
+
+.btnSelecionar {
+    position: relative;
+    top: 20px;
+    left: 122px;
+    width: 97px;
+    height: 35px;
+    padding: 4px;
+    text-align: center;
+    background-color: #6D28D9;
+    border-radius: 4px;
+    color: white;
+}
+
+
+/* Fim Card Correios */
+/* Card Transportadora */
+.cardTrans {
+    position: relative;
+    bottom: 90px;
+    left: 30px;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 4px;
+    border-color: #6B7280;
+    width: 307px;
+    height: 195px;
+    box-shadow: 0px 0px 0px 1px #D1D5DB;    
+}
+/* Card Transportadora */
+.cardTrans p {
+    position: relative;
+    left: 24px;
+    width: 259px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px
+}
+
+.cardTrans h4 {
+    position: relative;
+    left: 30px;
+}
+#total{
+    position:relative;
+    bottom: 70px;
+    left:30px;
+    color: #333945;
+    font-weight: 700;
+    height: max-content;
+}
+#valorTotal{
+    position: relative;
+    bottom: 60px;
+    left: 30px;
+    color: #333945;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+#frete{
+    position:relative;
+    left:30px;
+    bottom: 70px;
+    height: max-content;
+    width: max-content;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #6b7280;
+}
+/* Fim Card Transportadora */
+#finalizaCompra{
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    width: 307px;
+    height: 59px;
+    border-radius: 8px;
+    color:#fff ;
+    background-color: #000000;
+}
+
+/* Interação com JavaScript */
+.btnSelecionado{
+    color: #fff;
+    background-color: #10B981
+}
+.bordaSelecionada{
+    border-color: #6D28D9;    
+}

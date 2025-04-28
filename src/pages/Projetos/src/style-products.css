@@ -1,0 +1,205 @@
+.divCarrinho{
+    display: inline-block;
+    width: 883px;
+    height: 900px;
+    flex-shrink: 0;
+    background-color: #fff;
+    padding-right: 60px;
+    }
+
+.divCarrinho hr{
+    position: relative;
+    width: 100%;
+    width: 883px;
+    position: relative;
+    bottom: 50px;
+    border: 2px solid ;
+    border-color: #D1D5DB;
+ }
+
+.bag {
+    position: relative;  
+    bottom: 43px;
+    left: 800px;
+    width: 24px;
+    height: 24px;
+    }
+    
+.linhaProduto1 {
+    margin-bottom: 32px;
+    position: relative;
+    height: 124px;
+    background-color: #F3F4F6;
+    border-radius: 8px;
+    box-shadow: 0px 0px 0px 1px #D1D5DB;
+    flex-shrink: 0;
+}
+.linhaProduto2{
+    margin-bottom: 32px;
+    position: relative;
+    height: 124px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 0px 1px #D1D5DB;
+    flex-shrink: 0;
+}
+
+.linhaProduto3 {
+    margin-bottom: 32px;
+    position: relative;
+    height: 124px;
+    background-color: #F3F4F6;
+    border-radius: 8px;
+    box-shadow: 0px 0px 0px 1px #D1D5DB;
+    flex-shrink: 0;
+}
+.valorProduto3{
+    position: relative;
+    bottom: 46px;
+    right: 305px;
+}
+.estqProduto3{
+    position: relative;
+    bottom: 73px;
+    left: 80px;
+}
+
+
+.imgProdutos {
+    border-radius: 8px;
+    width: 124px;
+    height: 124px;
+}
+.nomeProduto{
+    position: relative;
+    font-size: 18px;
+    top: -72px;
+    left: 38px;
+    width: 129px;
+    height: 25px;
+}
+.estqProduto{
+    position: relative;
+    font-size: 18px;
+    top: -72px;
+    left: 64px;
+    width: 67px;
+    height: 25px;
+    
+}
+.likesProduto{
+    font-size: 18px;
+    position: relative;
+    top: -72px;
+    left: 125px;
+    width: 119px;
+    height: 25px;
+}
+.valorProduto{
+    position: relative;
+    font-size: 16px;
+    top: -45px;
+    left: -285px;
+    width: 53px;
+    height: 20px;
+}
+.valorProduto3{
+    position: relative;
+    font-size: 16px;
+    top: -45px;
+    left: -260px;
+    width: 53px;
+    height: 20px;
+
+}
+
+.qtdEstoque{
+    position: relative;
+    font-size: 16px;
+    top: -45px;
+    left: -195px;
+    width: 53px;
+    height: 20px;
+    }
+.likes{
+    position: relative;
+    top: -39px;
+    left: -125px;
+    width: 16px;
+    height: 16px;
+    }
+.qtdLikesProduto{
+    position: relative;
+    font-size: 16px;
+    top: -40px;
+    left: -128px;
+    width: 53px;
+    height: 20px;
+}
+.btnAddOrRemove{
+    display: flex;
+    position: relative;
+    width: 73px;
+    height: 32px;
+    border: 1px solid #D1D5DB;
+    border-radius: 50px;
+    bottom: 100px;
+    left: 671px;
+    background-color: #fff;
+    
+}
+.qtdItem1{
+    position: relative;
+    top: 6px;
+    left: 32px;
+    width: 9px;
+    height: 24px;
+    border: none;
+    }
+.btnRemove{    
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 16px;    
+    height: 16px;
+    background-color: #fff;
+    border: none;   
+}
+.totalItem{
+    position: relative;
+    top: 6px;
+    width: 25px;
+    height: 16px;
+    left: 5px;
+    z-index: 7;
+    align-items: center;    
+}
+.btnAdd{    
+    position: relative;
+    height: 3px;
+    top: -10px;
+    right: -26px;
+    border:transparent;
+    background-color: #fff;
+    z-index: 0
+}
+
+
+h4 {
+    text-transform: uppercase;
+    color: #333945;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#qtdItens{
+    position: relative;  
+    top: -70px;
+    left: 830px;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 400;
+}
